@@ -1,0 +1,14 @@
+
+the 'return' statement
+
+function multiplyTwoNumbers(a, b) {
+	var result = a * b;
+  return result;
+}
+
+var theProductOf2and10 = multiplyTwoNumbers(2, 10);
+
+
+EVENT DELEGATION - Pattern when you have list of items and every item in list has same kind of event listener. you want to add a single event listener to the enclosing element that contains all of the things.
+
+https://stackoverflow.com/questions/1687296/what-is-dom-event-delegation

@@ -1,0 +1,63 @@
+For loop explanation
+
+i = 0                 //  Initialization
+Say "hey" if i < 3    //  Condition
+Increase i by 1       //  Final-expression
+
+0 "hey"
+1 "hey"
+2 "hey"
+3
+
+For Loop Diagram
+for (initialization; condition; final-expression) {
+  console.log("hey");
+};
+
+for (var i = 0; i < 3; i++) {
+  console.log("hey");
+};
+
+
+================================================
+------------ Looping over arrays ---------------
+================================================
+
+
+// Basic for loop (3 is random number for this exercise)
+for (var i = 0; i < 3; i++) {
+  console.log(i);
+}
+
+// ^ returns value of i // 0, 1, 2
+
+var testArray =['item 1', 'item 2', 'item 3'];
+
+testArray[0]; // returns item 1
+testArray[1]; // returns item 2
+testArray[2]; // returns item 3
+
+for (var i = 0; i < testArray.length; i++) {
+  console.log(testArray[i]);
+}
+
+// 3 changed to testArray.length because if array was larger than 3 it would not print whole array. the .length property allows us to looping as long as i is less than the length of our array.
+
+
+================================================
+--------------- If Statements ------------------
+================================================
+
+if (condition) {
+  // some code
+}
+
+================================================
+------------- If Else Statement ----------------
+================================================
+
+if (condition) {
+  // code that runs if condition is true.
+} else {
+  // code that runs if condition is false.
+}

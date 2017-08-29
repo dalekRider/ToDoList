@@ -1,0 +1,41 @@
+
+==========================================
+ - Todo V6 Requirements
+==========================================
+
+    + .toggleAll: If everything's true, make everything false
+    + .toggleAll: Otherwise, make everything true
+
+
+Otherwise is perfect spot for using else statement.
+
+Toggle all method allows us to make everything checked (true) or unchecked (false).
+
+Only time it makes everything false is if all items are checked. Otherwise it will make everything true
+
+Example available on http://todomvc.com/examples/vanillajs/
+
+======================================================
+Three possible scenarios
+3 list items
+======================================================
+All Items unchecked (false). ToggleAll will change to completed (true).
+
+( ) First
+( ) Second
+( ) Third
+
+Some items marked completed (true) and some not marked (false). ToggleAll will only change all remaining items to completed (true)
+
+( ) First
+(X) Second
+( ) Third
+
+All Items marked completed (true). ToggleAll will change all items to uncompleted (false).
+
+(X) First
+(X) Second
+(X) Third
+
+
+Always need to think about various things that can happen and write code to adapt to those possible outcomes.

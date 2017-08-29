@@ -1,0 +1,29 @@
+/*
+
+Create js code based on version4.js file
+
+==========================================
+ - Todo V4 Requirements
+==========================================
+
+    + todoList.addTodo should add objects
+    + todoList.changeTodo should change the todoText property
+    + todoList.toggleCompleted should change the completed property
+
+
+*/
+
+Will cover Booleans
+ Booleans represent true/false values.
+
+As of Version 3 our code currently just adds text to array, will change from array of text to array of objects. Each object will have 2 properties. One is a text property which will describe the todo. The second property tells use whether the todo is completed. have to modify changeTodo on todo text property. add new method toggleCompleted uses boolean.
+
+
+Bang operator
+in console try the following
+!true <-- this will return false
+!false <-- this will return true
+
+var johnathanBoolean = false;
+!johnathanBoolean <-- this will equal true
+johnathanBoolean = !johnathanBoolean;

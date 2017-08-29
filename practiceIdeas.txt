@@ -1,0 +1,10 @@
+===========================================================
+--------- Practice Ideas Using Similar JavaScript ---------
+===========================================================
+
+Below are some ideas to practice concepts learned from Gordon Zhu's Watch and Code course. Some would be more duplication just adjusting names, but they will practice in committing the concepts to muscle memory. Others are a bit more complex but should be doable based on the material learned. Good Luck!
+
++ Parts Check List
++ Grocery List
++ Bill Tracker
++ Kitchen Menu Order Form

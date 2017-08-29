@@ -1,0 +1,79 @@
+time doing <-- cant control
+how they do <-- focus
+
+Ability = Process * Time
+
+Develop process of learning, Focus on the process
+Complete this course, make sure you understand this
+play around with the code
+
+don't compare with other programmers, don't focus on their experience, focus on their process. is it good? some may have years of experience but poor process.
+
+= Finish this course.
+ - Don't jump between various courses/tutorials.
+= Understand the material
+ - Put in work
+ - Experiment with code
+ - Write notes
+ - Make mental connections
+= Focus on fundamentals
+ - Not editors
+ - Not next big framework
+= Be good at seemingly small things
+ - Asking questions
+
+How to be great at asking coding questions:
+https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603
+
+===================================================================
+---------------- Good Question Asking Guidelines ------------------
+===================================================================
+
+1. Understand the code to the best of your ability.
+ - Really understand the code, DO NOT RUSH.
+ - Go line-by-line and figure out what the line does.
+ - Take notes on parts that may be confusing, let it sink in (Mental Connection).
+ - Google unfamiliar concepts (avoid asking question you can answer with Google).
+ - Use the Debugger to help.
+
+2. Clearly describe the problem.
+ - Explain the context. Tutorial example, provide URL, what your trying to do, if a video     provide a timestamp, provide reference points for those trying to help.
+ - Explain EXACT steps you took to produce the issue. Ex: Did you click three buttons in a specific order? Did it work fine in one browser and not in another? Explain every detail.
+ - Explain what you expected to see.
+ - Explain what you actually see. Ex: If there is an error message provide the entire error and the line of code that triggered it. If UI problem provide screenshot.
+
+3. Provide the code that illustrates the problem.
+ - If a large project isolate just the part that is broken and share that.
+ - When you share code, make sure that the code doesn't change by the time someone else looks at it. That means you should create a separate copy of your code just for the question. If you change the code by the time someone looks at it, your question is not just a bad question, it is inaccurate, which is worse. That is because everything might have changed, but there is no way the person answering knows this.
+
+4. Make sure the code you're sharing can reproduce the problem.
+ - Take the code you shared and test it separately to make sure it behaves EXACTLY like you described. If it doesn't replicate the problem, it will not be possible to help you.
+
+5. You must provide a live working demo unless it's impossible.
+ - Ex: Front-end problem? make a live demo on tool like Plunker, Codepen and share.
+ - If not able to provide live demo, explain why. Then upload code to a code sharing site like Github and provide exact step-by-step directions on how to get the code running.
+
+6. Format your code consistently.
+ - It doesn't matter what style you use, just make sure that you're consistent. This makes your code easier to read. It will also help you with the next step.
+
+7. Check yourself for typos.
+ - Nobody wants to look for your typos. If you can't find your own typos, you need to learn how.
+ - Ex: Following a tutorial? Go back to the point where the code worked and redo the lesson from there. Make sure the code continues to work each step of the way. If you get to a point where it doesn't work, redo the lesson and double-check for typos.
+ - If in a specific lesson and the code is provided, check the provided code and make sure it works. If it does and yours does not, then there is a typo. Go back methodically and figure out where you messed up. DO NOT waste someone else's time looking for your mistake.
+
+8. Explain what you did to troubleshoot the problem.
+ - Come up with a list of hypotheses about what the problem might be and then test them methodically. For each hypothesis, explain what you did to test each hypothesis.
+ - During this process you might figure out the problem yourself. This is very common.
+ - Knowing what you have done to figure things out will help better understand your thought process and where the confusion is coming from.
+
+9. Explain what you think the problem might be.
+ - based on your test in the previous step, provide your best guess on what you think it may be.
+
+10. Proofread your question.
+ - Read through the question and make sure you've provided everything that someone would need to answer it.
+ - edit for clarity. If it may be confusing, fix it. If you have a typo fix it. If others see a typo in your question they will assume the code has them and not help.
+
+11. Send updates and remember this will not be your last question.
+ - If you have figured out the answer before someone can respond, then yell people so they do not waste their time.
+ - When you get an answer make sure you carefully and fully understand it. It may not be right so make sure that their solution works.
+ - Thank each person that helped you and remember they didn't have to answer.

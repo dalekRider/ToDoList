@@ -1,0 +1,93 @@
+=======================================================
+----------- JavaScript Data Types Overview: -----------
+=======================================================
+
+Types of Data Types
+
+ + Objects (can be as complex as you want) // {} signifies object?
+  - {} // todoList, arrays, functions
+
+ + Primitives (building blocks) simple building block of the language.
+  - String       // 'Look at this string!'
+  - Number       // 1, 2, 3, 4 ...
+  - Boolean      // true, false
+  - Undefined    // value that hasn't been set
+  - Null         // 'Nothing' explicitly nothing
+
+ undefined example:
+ var someVar; <-- variable is not set so is undefined
+
+ Null example:
+ var testScore = null; test is 0-100 for grade, do not want to use 0 as it would affect average. Instead set to null, then it can be updated after test is taken and score is available.
+
+ If not a primitive, then its an object.
+
+========================================================
+------------- Comparisons with Primitives: -------------
+========================================================
+
+Comparing primitive values is just like comparing in math class. but Way different than comparing objects which is totally different
+
+++++++ String Comparison ++++++
+
+'johnathan' === 'johnathan';
+//true
+
+'johnathan1' === 'johnathan';
+//false
+
+++++++ Number Comparison ++++++
+
+1 === 1
+//true
+
+1 === 2
+//false
+
+100 === 100
+//true
+
+++++++ Boolean Comparison ++++++
+
+true === true
+//true
+
+true === false
+//false
+
+false === false
+//true
+
+++++++ Undefined/Null Comparison ++++++
+
+undefined === undefined
+//true
+
+null === null
+//true
+
+=======================================================
+-------------- Comparisons with Objects: --------------
+=======================================================
+
+{} === {}
+// false
+// When you create an object, javaScript saves each object in a unique location in memory. So javaScript see the objects but also sees the objects unique memory address and compares that address with the other object, because the addresses are not matching it returns false even if everything else matches.
+
+Example
+{} - // located at memory address 1
+{} - // located at memory address 2
+{} - // located at memory address 3
+
+The only way to get it to return true is if you assign the object to a variable then compare
+var houseA = {};
+houseA === houseA
+
+[1, 2, 3] === [1, 2, 3]
+// false
+
+=======================================================
+----------------------- Review: -----------------------
+=======================================================
+
+javascript compares primitive's values, Objects are references (memory addresses). JavaScript will not compare an objects value, it will compare the memory address (reference).

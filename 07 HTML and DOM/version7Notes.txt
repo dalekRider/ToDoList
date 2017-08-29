@@ -1,0 +1,3 @@
+DOM Document Object Model
+
+DOM = Browser's interpretation of page's HTML.

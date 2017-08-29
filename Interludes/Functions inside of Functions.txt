@@ -1,0 +1,165 @@
+=========================================================
+----------------- runWithDebugger Notes -----------------
+=========================================================
+example function
+function logTenNumbers () {
+  for (var i = 0; i < 10; i++) {
+  console.log(i);
+  }
+}
+
+result in console
+logTenNumbers();
+ 0
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+=========================================================
+Example of manually debugging
+=========================================================
+debugger;
+logTenNumbers();
+
+
+=========================================================
+Example of automatically debugging
+=========================================================
+
+
+Example:
+function runWithDebugger(ourFunction) {
+  debugger;
+  ourFunction();
+}
+
+Then put our function as the parameter of the runWithDebugger function
+
+runWithDebugger (function logTenNumbers () {
+  for (var i = 0; i < 10; i++) {
+  console.log(i);
+  }
+});
+
+
+==========================================================
+-------------------- setTimeout Notes --------------------
+==========================================================
+
+setTimeout is builtin function that will run a function after a certain period of time has passed, you can set the time
+
+setTimeout (function () {
+  console.log('Wake up Johnathan!');
+}, 5000);
+
+=======================================================
+-------------------- forEach Notes --------------------
+=======================================================
+allows you to run a function on every item in an array
+
+var students = ['jonathan', 'jenny', 'elliot'];
+
+function logName(name) {
+  console.log(name);
+}
+
+Manual Example would be
+logName(students[0]);
+jonathan
+
+logName(students[1]);
+jenny
+
+logName(students[2]);
+elliot
+
+
+better version
+for (var i = 0; i < students.length; i++) {
+  logName(students[i]);
+}
+
+EVEN BETTER forEach function works on arrays.
+
+students.forEach(logName);
+
+our own for Each
+
+function forEach(myArray, myFunction) {
+  for (var i = 0; i < myArray.length; i++) {
+    myFunction(myArray[i]);
+  }
+}
+
+forEach(students, function(student) {
+	console.log(student);
+})
+
+======================================================
+------------------ addEventListener ------------------
+======================================================
+tutorialsElement.addEventListener('click', function() {
+	console.log('The tutorials element was clicked!');
+});
+
+
+tutorialsElement.addEventListener('click', function(event) {
+	console.log(event);
+	console.log('The tutorials element was clicked!');
+});
+
+======================================================
+BuzzWords
+======================================================
+
+High order functions:
+they accept functions and then enhance the behavior of the functions they are given
+
+- functions that accept other functions
+    + examples: setTimeout, runWithDebugger
+- Enhance the behavior of other functions
+
+Callback functions
+- the functions that are passed into higher order functions
+    + examples: function inside debugger
+
+======================================================
+High order breakdown from examples
+======================================================
+| -- HO Func --| |-------callback ----------
+runWithDebugger (function logTenNumbers () {
+  ------------------------------
+  for (var i = 0; i < 10; i++) {
+  ---------------
+  console.log(i);
+  -
+  }
+-|
+});
+
+
+|--high --| |---- Callback --
+setTimeout (function () {
+  ----------------------------------
+  console.log('Wake up Johnathan!');
+-|
+}, 5000);
+
+
+|-high-|           |---- callback
+forEach(students, function(student) {
+	console.log(student);
+});
+
+
+                |--High Order---|         |------callback---
+tutorialsElement.addEventListener('click', function(event) {
+  --------------------------------------------------
+	console.log('The tutorials element was clicked!');
+-|
+});
