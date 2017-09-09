@@ -6,4 +6,4 @@ There's nothing particulary fancy about this program. It's a simple To-Do List w
 
 The files also contain notes taken during the course. At the bottom of each file should be the completed version for that particular section of the course. Please feel free to ask any questions you may have.
 
-<h3>Johnathan Mercier</h3>
+<strong>Johnathan Mercier</strong>
